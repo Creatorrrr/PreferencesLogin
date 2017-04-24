@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Auto Login">
+
+        <com.example.kosta.preferenceslogin.LoginDialogPref
+            android:dialogTitle="Auto Login"
+            android:key="loginInfo"
+            android:summary="Input information"
+            android:title="Auto Login Setting" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Auto Login">
+
+        <com.example.kosta.preferenceslogin.LoginDialogPref
+            android:dialogTitle="Auto Login"
+            android:key="loginInfo"
+            android:summary="Input information"
+            android:title="Auto Login Setting" />
+
+        <CheckBoxPreference
+            android:dialogTitle="Auto Login"
+            android:key="loginInfo"
+            android:summary="Input information"
+            android:title="Auto Login Setting" />
+
+        <SwitchPreference
+            android:dialogTitle="Auto Login"
+            android:key="loginInfo"
+            android:summary="Input information"
+            android:title="Auto Login Setting" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
